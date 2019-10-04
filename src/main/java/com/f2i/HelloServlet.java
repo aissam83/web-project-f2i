@@ -15,7 +15,7 @@ public class HelloServlet extends HttpServlet {
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		response.getWriter().println("Hello Jenkins From GitHub : "+ new Date());
+		response.getWriter().println("Hello I2AAAAAAAAAAAAA From GitHub : "+ new Date());
 	}
 
 	/**
