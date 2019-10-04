@@ -4,6 +4,10 @@ pipeline {
     stage ("Init") {
     steps {
     echo "Testing..."
+         sh '''
+         mvn clean
+         mvn package
+            '''
           }
                    }
     stage ("Build") {
