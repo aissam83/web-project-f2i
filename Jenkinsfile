@@ -20,6 +20,7 @@ pipeline {
                    }
     stage ("Deploy") {
     steps {
+      build job: 'deploy'
     echo "Code deployed."
           }
                    }
