@@ -3,9 +3,7 @@ pipeline {
   stages { 
     stage ("Init") {
     steps {
-      sh '''
-         mvn clean
-         '''
+     echo "Testing..."
           }
                    }
     stage ("Build") {
