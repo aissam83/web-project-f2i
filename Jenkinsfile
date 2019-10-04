@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages { 
-    tage ("Init") {
+    stage ("Init") {
     steps {
     echo "Testing."
           }
