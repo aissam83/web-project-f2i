@@ -20,6 +20,7 @@ pipeline {
                    }
     stage ("Deploy") {
     steps {
+      sleep 60
       build job: 'deploy'
     echo "Code deployed."
           }
